@@ -1,0 +1,13 @@
+﻿ElasticSeacrch y Kibana version 7.9.1
+
+
+
+Levantar docker
+
+1) Abrir un cmd 
+2) Ir a la ruta donde esta el archivo docker-compose.yml
+3) Ejecutar la linea docker run -d -p 9200:9200 -p 5601:5601 nshou/elasticsearch-kibana
+4) Levantar el http://localhost:9200/
+5) Levantar el http://localhost:5601/
+6) ir a ttp://localhost:5601/ , luego en el menu que esta a la izquierda poner discover
+7) Create index pattern
